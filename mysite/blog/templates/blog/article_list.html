@@ -1,0 +1,6 @@
+{% block content %}
+{% for article in latest_articles %}
+     {{ article.title }}
+     {{ article.pub_date }}
+{% endfor %}
+{% endblock %}
